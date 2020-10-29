@@ -141,6 +141,12 @@ def move():
         goto(point.x + 10, point.y + 10)
         dot(20, 'red')
 
+
+        if valid (pacman + aim) and valid (point + course):
+            point.move(course)
+            course.x = aim.x
+            course.y = aim.y
+
     update()
 
     for point, course in ghosts:
