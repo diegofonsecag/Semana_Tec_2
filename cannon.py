@@ -70,7 +70,7 @@ def move():
             targets.append(target)
 
     draw()
-
+    
     for target in targets:
         if not inside(target):
             return
