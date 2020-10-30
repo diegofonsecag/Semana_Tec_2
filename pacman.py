@@ -1,12 +1,11 @@
 """Pacman, classic arcade game.
 
-Exercises
+Modificaciones que haremos:
 
-1. Change the board.
-2. Change the number of ghosts.
-3. Change where pacman starts.
-4. Make the ghosts faster/slower.
-5. Make the ghosts smarter.
+1. Cambiaremos el tablero.
+2. Cambiaremos el color de las paredes, del camino y de la comida.
+3. Aumentaremos la velocidad de los fantasmas.
+4. Haremos los fantasmas más inteligentes.
 
 """
 

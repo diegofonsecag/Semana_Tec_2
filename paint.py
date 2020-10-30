@@ -1,12 +1,11 @@
 """Paint, for drawing shapes.
 
-Exercises
+Lo que modificaremos:
 
-1. Add a color.
-2. Complete circle.
-3. Complete rectangle.
-4. Complete triangle.
-5. Add width parameter.
+1. Agregaremos colores
+2. Completaremos la función del círculo
+3. Completaremos la función del rectángulo.
+4. Completaremos la función del triángulo.
 
 """
 
@@ -34,7 +33,7 @@ def square(start, end):
     end_fill()
 
 def circle(start, end):
-    "Draw circle from start to end."
+    # Hicimos esta función que crea un círculo
     up()
     goto(start.x, start.y)
     down()
@@ -47,7 +46,7 @@ def circle(start, end):
     end_fill()
 
 def rectangle(start, end):
-    "Draw rectangle from start to end."
+    # Creamos esta función que dibuja un rectángulo
     up()
     goto(start.x, start.y)
     down()
@@ -64,7 +63,7 @@ def rectangle(start, end):
     end_fill()
 
 def triangle(start, end):
-    "Draw triangle from start to end."
+    # Hicimos esta función que permite dibujar un triángulo
     up()
     goto(start.x, start.y)
     down()
@@ -102,6 +101,8 @@ onkey(lambda: color('white'), 'W')
 onkey(lambda: color('green'), 'G')
 onkey(lambda: color('blue'), 'B')
 onkey(lambda: color('red'), 'R')
+
+#Agregamos el color amarillo, magenta y cyan
 onkey(lambda: color('yellow'), 'Y')
 onkey(lambda: color('magenta'), 'M')
 onkey(lambda: color('cyan'), 'C')
