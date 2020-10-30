@@ -1,11 +1,10 @@
 """Cannon, hitting targets with projectiles.
 
-Exercises
+Modificaciones:
 
-1. Keep score by counting target hits.
-2. Vary the effect of gravity.
-3. Apply gravity to the targets.
-4. Change the speed of the ball.
+1. Aumentaremos la velocidad del proyectil y de los blancos.
+2. Cambiaremos el color del proyectil, los blancos y del fondo.
+3. Haremos que el juego nunca termine.
 
 """
 
@@ -51,9 +50,11 @@ def move():
         targets.append(target)
 
     for target in targets:
+        # Aquí aumentamos la velocidad de los blancos de 0.5 a 2.5
         target.x -= 2.5
 
     if inside(ball):
+        # Aquí reducimos el efecto de la gravedad de la pelota, aumentando su velocidad.
         speed.y -= 0.15
         ball.move(speed)
 
