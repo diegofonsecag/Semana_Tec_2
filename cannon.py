@@ -70,10 +70,12 @@ def move():
             targets.append(target)
 
     draw()
-    
+
+    # Aquí creamos que el mapa sea continuo, y así el juego infinito
     for target in targets:
         if not inside(target):
-            return
+            targets.remove(target)
+            #return
 
     ontimer(move, 50)
 
