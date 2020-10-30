@@ -2,9 +2,9 @@
 
 Modificaciones:
 
-1. Aumentaremos la velocidad del proyectil y de los blancos.
-2. Cambiaremos el color del proyectil, los blancos y del fondo.
-3. Haremos que el juego nunca termine.
+1. Diego: Aumentaremos la velocidad del proyectil y de los blancos.
+2. Marisa: Cambiaremos el color del proyectil, los blancos y del fondo.
+3. Santiago: Haremos que el juego nunca termine.
 
 """
 
@@ -31,13 +31,16 @@ def inside(xy):
 def draw():
     "Draw ball and targets."
     clear()
+    # Aquí cambiamos el color del fondo a negro
     bgcolor('black')
     for target in targets:
         goto(target.x, target.y)
+        # Aquí cambiamos el color de los blancos de azul a morado
         dot(20, 'purple')
 
     if inside(ball):
         goto(ball.x, ball.y)
+        # Aquí cambiamos el color del proyectil de rojo a naranja
         dot(6, 'orange')
 
     update()

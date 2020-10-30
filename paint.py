@@ -2,10 +2,10 @@
 
 Lo que modificaremos:
 
-1. Agregaremos colores
-2. Completaremos la función del círculo
-3. Completaremos la función del rectángulo.
-4. Completaremos la función del triángulo.
+1. Santiago: Agregaremos colores
+2. Diego: Completaremos la función del círculo
+3. Marisa: Completaremos la función del rectángulo.
+4. Santiago: Completaremos la función del triángulo.
 
 """
 

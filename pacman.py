@@ -2,10 +2,10 @@
 
 Modificaciones que haremos:
 
-1. Cambiaremos el tablero.
-2. Cambiaremos el color de las paredes, del camino y de la comida.
-3. Aumentaremos la velocidad de los fantasmas.
-4. Haremos los fantasmas más inteligentes.
+1. Diego: Cambiaremos el tablero.
+2. Diego: Cambiaremos el color de las paredes, del camino y de la comida.
+3. Marisa: Aumentaremos la velocidad de los fantasmas.
+4. Santiago: Haremos los fantasmas más inteligentes.
 
 """
 
