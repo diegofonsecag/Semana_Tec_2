@@ -45,16 +45,16 @@ def draw():
 
 def move():
     "Move ball and targets."
-    if randrange(40) == 0:
+    if randrange(15) == 0:
         y = randrange(-150, 150)
         target = vector(200, y)
         targets.append(target)
 
     for target in targets:
-        target.x -= 0.5
+        target.x -= 2.5
 
     if inside(ball):
-        speed.y -= 0.35
+        speed.y -= 0.15
         ball.move(speed)
 
     dupe = targets.copy()
