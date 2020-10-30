@@ -65,10 +65,14 @@ def move():
             targets.append(target)
 
     draw()
-
+    
+    """
+    Mapa continuo
+    """
     for target in targets:
         if not inside(target):
-            return
+            targets.remove(target)
+            """return"""
 
     ontimer(move, 50)
 
